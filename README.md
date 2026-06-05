@@ -10,14 +10,10 @@ JUST PlUG IT INTO YOUR COMPUTER VIA THE INPUT
 
 | PCB Layout | Schematic / Wiring |
 |---|---|
-| <img width="551" height="622" alt="PCB Layout" src="https://github.com/user-attachments/assets/5f26b959-d983-4ee8-85d2-b24f64c9381d" /> | <img width="1185" height="757" alt="Schematic" src="https://github.com/user-attachments/assets/8020e82b-642c-47be-b0ec-c05f377020c1" /> |
+| <img width="925" height="763" alt="image" src="https://github.com/user-attachments/assets/b31be825-a737-4337-930c-39136f29dbd2" />| <img width="1185" height="757" alt="Schematic" src="https://github.com/user-attachments/assets/8020e82b-642c-47be-b0ec-c05f377020c1" /> |
 
 
-## 3D View (Rear)
 
-<p align="center">
-<img width="780" height="718" alt="3D Rear View" src="https://github.com/user-attachments/assets/46ff1b04-ce59-44a7-b3f2-45800369ab9a" />
-</p>
 
 ---
 
@@ -25,6 +21,6 @@ JUST PlUG IT INTO YOUR COMPUTER VIA THE INPUT
 
 | Item | Description | Quantity | Unit Price ($) | Total Price ($) | URL |
 |------|-------------|----------|----------------|-----------------|-----|
-| PCB | Custom PCB Manufacturing (JLCPCB) | 1 | xx.00 | xx.00 | https://jlcpcb.com |
+| PCBA | Custom PCB Manufacturing (JLCPCB) | 1 |  |  | https://jlcpcb.com |
 | Case | 3D Printed Case (PrintLegion) | 1 | 6.00 | 6.00 | https://hackclub.com |
 | **TOTAL** |  |  |  | **xxx0 $** |  |
