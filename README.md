@@ -10,7 +10,8 @@ JUST PlUG IT INTO YOUR COMPUTER VIA THE INPUT
 
 | PCB Layout | Schematic / Wiring |
 |---|---|
-| <img width="551" height="622" alt="PCB Layout" src="https://github.com/user-attachments/assets/712dec4f-a6a3-4902-bcae-78ff57047f8b" /> | <img width="1185" height="757" alt="Schematic" src="https://github.com/user-attachments/assets/1e8c9898-d522-44bc-8af1-9de9a799e8f6" /> |
+| <img width="551" height="622" alt="PCB Layout" src="https://github.com/user-attachments/assets/5f26b959-d983-4ee8-85d2-b24f64c9381d" /> | <img width="1185" height="757" alt="Schematic" src="https://github.com/user-attachments/assets/8020e82b-642c-47be-b0ec-c05f377020c1" /> |
+
 
 ## 3D View (Rear)
 
