@@ -96,7 +96,7 @@
 		(property "Reference" "R3"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "622a3ba9-23f6-4158-858a-ed00dba772c3")
+			(uuid "95ead452-6767-4492-b965-4928a7ad2379")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +107,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "ad91f2b8-2d4c-43ec-87ee-e3db1ff5e7bb")
+			(uuid "82ad5fc0-a0b4-46f9-a34b-59534a63e1af")
 			(effects
 				(font
 					(size 1 1)
@@ -115,11 +115,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "87ebb7ab-2bb3-4f46-9cae-d58245ad186c")
+			(uuid "98f6ba05-0012-4770-9f8d-e708cc97da63")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,7 +131,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74363059-90c2-40b3-a466-bf4b8a2e9e1a")
+			(uuid "8ba59169-f217-4b28-bbf7-c487754d81e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,9 +140,14 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/7cbf2192-ea27-408a-b0a6-008780ac4515")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -296,7 +301,7 @@
 		(property "Reference" "C2"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "c9c5d789-1700-46c8-8a5a-6c8a7562efa8")
+			(uuid "dc224fb7-adef-4bac-95cd-b01783392d7b")
 			(effects
 				(font
 					(size 1 1)
@@ -307,7 +312,7 @@
 		(property "Value" "0.1µF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "1b8ef6c8-c3ce-4372-b6da-f9b880a1e0df")
+			(uuid "4a9b84d1-dea5-4b58-be59-d99a4279a9b5")
 			(effects
 				(font
 					(size 1 1)
@@ -315,11 +320,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a25b88b-3353-493b-92cb-602c6d764d3f")
+			(uuid "4312ff04-62b5-4cef-b3b4-9744233aafc5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,7 +336,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e24ba145-7b8c-4eac-bc2e-daad1d3524c5")
+			(uuid "b87c47f5-de0e-492f-8800-4b26929688af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -340,9 +345,14 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/e52375bb-f167-496e-aa8e-bb079e727bb6")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -496,7 +506,7 @@
 		(property "Reference" "R7"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "4991f607-8ec0-4191-b436-64ce67c54d25")
+			(uuid "fe530d46-3ea9-4a1f-b387-423486a44e8f")
 			(effects
 				(font
 					(size 1 1)
@@ -507,7 +517,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "edf7d456-aa5a-48cd-992f-f90c97e51836")
+			(uuid "65f4dd18-a7c7-4299-8354-fbaf13af3f90")
 			(effects
 				(font
 					(size 1 1)
@@ -515,11 +525,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9d51ee6-8a01-423c-9f0b-d71593feab9c")
+			(uuid "2f28947e-7a32-4e72-81fd-508a62f4b0f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,7 +541,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2624b95d-6520-43e6-8faf-6a3be529d699")
+			(uuid "a115761d-f2fd-4b61-9bc3-4c6ef6ccd08f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -543,6 +553,12 @@
 		(path "/84da472e-5f52-4447-8270-9eeb124c1b1f")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -696,7 +712,7 @@
 		(property "Reference" "C4"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "bf1b4c28-5716-4541-b6e7-07f636b35496")
+			(uuid "19ece27d-ee0d-4821-b0fc-b657a34036d6")
 			(effects
 				(font
 					(size 1 1)
@@ -708,7 +724,7 @@
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c556ec1b-1efa-4e70-b78a-f2b8fb44799c")
+			(uuid "ca1ddd57-c9c8-4ec7-b066-206710ff0627")
 			(effects
 				(font
 					(size 1 1)
@@ -716,11 +732,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbddc20e-e8a5-49a2-9420-01fa124d482b")
+			(uuid "14634e67-bb5e-4376-b814-95cbb8a25d59")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,7 +748,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b503e371-561c-4032-b0eb-1fb8fba6e231")
+			(uuid "d71ae6af-bed6-4223-9a4c-f93aa6bb6235")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,9 +757,14 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/fd3cc05c-c7ff-4d7a-83c3-473b53e3f59e")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -898,7 +919,7 @@
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bb2e7ad7-e8a4-45d2-9fa3-1154efa5cb78")
+			(uuid "4f585266-1281-4552-963c-75dcdf55292b")
 			(effects
 				(font
 					(size 1 1)
@@ -910,7 +931,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4cb1cd15-44a8-4aaf-9cfd-4cfcb35d4e1a")
+			(uuid "f4109af1-2209-4250-b773-6b34990ce6d5")
 			(effects
 				(font
 					(size 1 1)
@@ -918,11 +939,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f7732eb-30b4-49dd-8168-954389bfa68b")
+			(uuid "c95afb65-5bb7-41aa-b301-cc574725b4e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -934,7 +955,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14d1c812-7bcd-4ece-8da0-75e1faf8f793")
+			(uuid "a78105fe-1690-4cd4-a474-8dcf2d33c9b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,6 +967,12 @@
 		(path "/ee4a16a5-b72a-4e75-9f2d-871a135ec949")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1242,7 +1269,7 @@
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6c649f37-768b-49ba-b6ed-76d770cc4813")
+			(uuid "ce1aee58-6a0a-4c11-a2c1-c9357bf82fd1")
 			(effects
 				(font
 					(size 1 1)
@@ -1253,7 +1280,7 @@
 		(property "Value" "0.1µF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "b8cf80d6-eccf-48bc-97d2-d43b7d830da7")
+			(uuid "b7710cdb-c3a1-4e74-aec8-397740984320")
 			(effects
 				(font
 					(size 1 1)
@@ -1261,11 +1288,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddc83629-d8ff-483f-8a12-5e4cea02b725")
+			(uuid "25322a0e-2aeb-4726-9d7c-8631be1588f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1304,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e32e86d6-e528-455d-addd-66be445e0b33")
+			(uuid "8e3499a2-0335-4355-86b4-6994d462cb97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,9 +1313,14 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/0b2781fe-0f39-4356-87ce-b0da1acedc72")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1443,7 +1475,7 @@
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "068f7dae-674f-4551-9b58-b11b3bd8b43b")
+			(uuid "3b95ab70-663a-420d-803e-c26686258f51")
 			(effects
 				(font
 					(size 1 1)
@@ -1454,7 +1486,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "48b03eb2-651f-4b55-b7c5-d8b9557ca42d")
+			(uuid "25a7e20d-ead0-4701-bb05-1e39440a6bfe")
 			(effects
 				(font
 					(size 1 1)
@@ -1462,11 +1494,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce26a202-2087-4165-bed3-f16b8315704b")
+			(uuid "a2606155-5961-4ffa-b2c5-f789a6bd35ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1510,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21dc1995-fb70-4f57-9a2d-a96d051f70ac")
+			(uuid "e88bed23-d97b-4f0a-b8ff-034cd4bea884")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,9 +1519,14 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/b1884b97-a6a9-4ec7-b518-07afbb13c6ec")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1643,7 +1680,7 @@
 		(property "Reference" "J1"
 			(at 4.4 -7.05 0)
 			(layer "F.SilkS")
-			(uuid "02a4e614-9790-47cd-86dc-fff75771c008")
+			(uuid "ce58152d-3eaa-4102-8141-00ba696ab189")
 			(effects
 				(font
 					(size 1 1)
@@ -1654,7 +1691,7 @@
 		(property "Value" "USB_A"
 			(at 3.5 2.4 0)
 			(layer "F.Fab")
-			(uuid "2288e06d-a754-466c-8dfd-9a536400b999")
+			(uuid "dd7cfaae-110d-46bb-a3c6-2f32f934cecb")
 			(effects
 				(font
 					(size 1 1)
@@ -1662,12 +1699,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bee9c194-9670-4d91-bd22-3a876c4a0815")
+			(uuid "50beb87e-c056-4711-8a51-4b8b193cb2a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1717,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47429b1c-7c51-4d6a-9631-008243f9134f")
+			(uuid "6da5f5eb-a8cc-4ebe-929b-39ae8fdc9d63")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,9 +1726,14 @@
 			)
 		)
 		(property ki_fp_filters "USB*")
-		(path "/834d0c69-24c7-4737-8874-77308cc61cd8")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1872,7 +1914,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_1")
 			(pintype "power_in")
 			(uuid "f62ef318-f3ac-4191-a520-ff89886ffd9d")
 		)
@@ -1883,7 +1925,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D1_P")
-			(pinfunction "D-")
+			(pinfunction "D-_2")
 			(pintype "bidirectional")
 			(uuid "58671cfe-1536-46aa-aec7-f041d0ad4304")
 		)
@@ -1894,7 +1936,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D1_N")
-			(pinfunction "D+")
+			(pinfunction "D+_3")
 			(pintype "bidirectional")
 			(uuid "c7b6f957-6027-4747-83ec-6481d026cb94")
 		)
@@ -1905,7 +1947,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_4")
 			(pintype "power_in")
 			(uuid "0eadf5c3-9425-4596-8d53-7ff215afa2e4")
 		)
@@ -1916,7 +1958,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Shield")
+			(pinfunction "Shield_5")
 			(pintype "passive")
 			(uuid "9174a3fd-f6b9-460c-bf18-0c2068aee033")
 		)
@@ -1927,7 +1969,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Shield")
+			(pinfunction "Shield_5")
 			(pintype "passive")
 			(uuid "c7d574f1-18aa-411b-b2bf-f65abaa8ef9c")
 		)
@@ -1938,301 +1980,22 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Shield")
+			(pinfunction "Shield_5")
 			(pintype "passive")
 			(uuid "7e3cea47-636e-4b8c-90c7-4f1f78a87e46")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Molex_105057_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Molex_105057_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3.5 2 4.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
-	)
-	(footprint "LOGO"
-		(layer "F.Cu")
-		(uuid "8515c5e5-7175-43cd-9655-ae443210f647")
-		(at 127.79375 105.56875 -90)
-		(property "Reference" "G***"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ee833b34-051e-439b-9174-0e48c7c00e7a")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(property "Value" "LOGO"
-			(at 0.75 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "38567bb8-dde1-4c31-bade-751b7de823c9")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9806dd6c-682e-4bbf-94cc-2cec1949db40")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60185898-0de7-43c0-9d7d-09b0911683d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -6.721709 -0.861341) (xy -6.708529 -0.752121) (xy -6.793158 -0.604772) (xy -6.924379 -0.560106)
-				(xy -7.031792 -0.624306) (xy -7.055556 -0.721641) (xy -6.995575 -0.877286) (xy -6.866802 -0.910395)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "5a237078-88eb-41b8-b158-1f7ccd0a02b2")
-		)
-		(fp_poly
-			(pts
-				(xy -6.79225 -0.352173) (xy -6.739569 -0.294755) (xy -6.709303 -0.159714) (xy -6.69532 0.085142)
-				(xy -6.691489 0.472003) (xy -6.691399 0.591756) (xy -6.693682 1.018201) (xy -6.704618 1.294777)
-				(xy -6.73034 1.453674) (xy -6.77698 1.527083) (xy -6.850668 1.547196) (xy -6.873477 1.54767) (xy -6.954705 1.535684)
-				(xy -7.007386 1.478266) (xy -7.037652 1.343225) (xy -7.051635 1.098369) (xy -7.055466 0.711508)
-				(xy -7.055556 0.591756) (xy -7.053273 0.16531) (xy -7.042337 -0.111266) (xy -7.016614 -0.270163)
-				(xy -6.969975 -0.343572) (xy -6.896287 -0.363685) (xy -6.873477 -0.364158)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "7f2585a7-6f7e-4975-9ef6-641cf2318e87")
-		)
-		(fp_poly
-			(pts
-				(xy -8.011454 -0.352798) (xy -7.725245 -0.298961) (xy -7.54982 -0.173013) (xy -7.458366 0.054679)
-				(xy -7.42407 0.41375) (xy -7.419714 0.758243) (xy -7.422977 1.139004) (xy -7.43819 1.372997) (xy -7.473487 1.49549)
-				(xy -7.537003 1.541754) (xy -7.601793 1.54767) (xy -7.688301 1.533979) (xy -7.742055 1.469803) (xy -7.770757 1.320487)
-				(xy -7.782108 1.051377) (xy -7.783872 0.728315) (xy -7.783872 -0.09104) (xy -8.284589 -0.09104)
-				(xy -8.785305 -0.09104) (xy -8.785305 0.728315) (xy -8.788348 1.1176) (xy -8.802609 1.359495) (xy -8.83579 1.488655)
-				(xy -8.895593 1.539735) (xy -8.967384 1.54767) (xy -9.048612 1.535684) (xy -9.101293 1.478266) (xy -9.131559 1.343225)
-				(xy -9.145542 1.098369) (xy -9.149373 0.711508) (xy -9.149463 0.591756) (xy -9.149463 -0.364158)
-				(xy -8.435258 -0.364158)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "8c70edf7-7e41-4c80-b316-b18a4d9d13ce")
-		)
-		(fp_poly
-			(pts
-				(xy -4.698343 -0.352173) (xy -4.645662 -0.294755) (xy -4.615396 -0.159714) (xy -4.601413 0.085142)
-				(xy -4.597582 0.472003) (xy -4.597492 0.591756) (xy -4.597492 1.54767) (xy -5.311697 1.54767) (xy -5.698293 1.539133)
-				(xy -5.947242 1.507892) (xy -6.102416 1.445503) (xy -6.176572 1.381182) (xy -6.255812 1.245393)
-				(xy -6.303054 1.027302) (xy -6.324368 0.688408) (xy -6.327241 0.425268) (xy -6.323978 0.044507)
-				(xy -6.308765 -0.189486) (xy -6.273468 -0.311979) (xy -6.209952 -0.358243) (xy -6.145162 -0.364158)
-				(xy -6.058654 -0.350468) (xy -6.0049 -0.286292) (xy -5.976198 -0.136976) (xy -5.964846 0.132134)
-				(xy -5.963083 0.455196) (xy -5.963083 1.274551) (xy -5.462366 1.274551) (xy -4.961649 1.274551)
-				(xy -4.961649 0.455196) (xy -4.958607 0.065912) (xy -4.944346 -0.175984) (xy -4.911165 -0.305144)
-				(xy -4.851362 -0.356224) (xy -4.779571 -0.364158)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "d423f520-3842-4837-81bb-856fa8acdaa8")
-		)
-		(fp_poly
-			(pts
-				(xy -13.012418 -0.766013) (xy -12.973119 -0.591757) (xy -12.962396 -0.468275) (xy -12.90248 -0.400126)
-				(xy -12.751753 -0.370912) (xy -12.468594 -0.364233) (xy -12.395473 -0.364158) (xy -12.027711 -0.349155)
-				(xy -11.779093 -0.284645) (xy -11.626713 -0.141382) (xy -11.547666 0.109885) (xy -11.519046 0.498404)
-				(xy -11.516488 0.758243) (xy -11.519751 1.139004) (xy -11.534964 1.372997) (xy -11.570261 1.49549)
-				(xy -11.633777 1.541754) (xy -11.698567 1.54767) (xy -11.785075 1.533979) (xy -11.838829 1.469803)
-				(xy -11.867531 1.320487) (xy -11.878883 1.051377) (xy -11.880646 0.728315) (xy -11.880646 -0.09104)
-				(xy -12.426882 -0.09104) (xy -12.973119 -0.09104) (xy -12.973119 0.728315) (xy -12.976161 1.1176)
-				(xy -12.990423 1.359495) (xy -13.023604 1.488655) (xy -13.083406 1.539735) (xy -13.155198 1.54767)
-				(xy -13.229531 1.537631) (xy -13.280316 1.488173) (xy -13.312019 1.370276) (xy -13.329103 1.154927)
-				(xy -13.336033 0.813106) (xy -13.337277 0.364157) (xy -13.335732 -0.119006) (xy -13.328123 -0.449113)
-				(xy -13.309985 -0.655182) (xy -13.276855 -0.766228) (xy -13.224267 -0.81127) (xy -13.155198 -0.819356)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "81a3c7bb-7a4f-436b-b33c-14db7e9a3b38")
-		)
-		(fp_poly
-			(pts
-				(xy 3.856809 -0.808126) (xy 3.908852 -0.753764) (xy 3.939732 -0.625263) (xy 3.954915 -0.391615)
-				(xy 3.959866 -0.021811) (xy 3.960214 0.213488) (xy 3.954082 0.731056) (xy 3.922396 1.094001) (xy 3.845223 1.329691)
-				(xy 3.702628 1.465495) (xy 3.474679 1.528782) (xy 3.141442 1.546921) (xy 2.988482 1.54767) (xy 2.618635 1.536508)
-				(xy 2.38347 1.496502) (xy 2.236592 1.417865) (xy 2.199055 1.381182) (xy 2.129917 1.269144) (xy 2.084817 1.092631)
-				(xy 2.059367 0.817155) (xy 2.049175 0.408227) (xy 2.048386 0.197669) (xy 2.050423 -0.244587) (xy 2.060261 -0.536019)
-				(xy 2.083495 -0.707867) (xy 2.125717 -0.791373) (xy 2.19252 -0.817777) (xy 2.230465 -0.819356) (xy 2.308697 -0.808252)
-				(xy 2.360623 -0.754405) (xy 2.391599 -0.627011) (xy 2.406983 -0.395265) (xy 2.412133 -0.028363)
-				(xy 2.412544 0.227598) (xy 2.412544 1.274551) (xy 3.0043 1.274551) (xy 3.596057 1.274551) (xy 3.596057 0.227598)
-				(xy 3.597988 -0.222236) (xy 3.607352 -0.520808) (xy 3.629508 -0.698921) (xy 3.669811 -0.78738) (xy 3.733621 -0.81699)
-				(xy 3.778135 -0.819356)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "2605a0c9-f130-48d6-a5f8-af7bdbc79d1c")
-		)
-		(fp_poly
-			(pts
-				(xy 5.584863 -0.809432) (xy 5.883434 -0.765942) (xy 6.056194 -0.668303) (xy 6.131045 -0.495934)
-				(xy 6.13589 -0.228253) (xy 6.124281 -0.087845) (xy 6.113253 0.183014) (xy 6.133512 0.370867) (xy 6.158263 0.417774)
-				(xy 6.206253 0.53073) (xy 6.233701 0.756723) (xy 6.2362 0.856137) (xy 6.212464 1.148364) (xy 6.12272 1.346483)
-				(xy 5.939161 1.467623) (xy 5.633983 1.528917) (xy 5.179379 1.547497) (xy 5.113799 1.54767) (xy 4.324372 1.54767)
-				(xy 4.324372 0.864874) (xy 4.68853 0.864874) (xy 4.68853 1.274551) (xy 5.280286 1.274551) (xy 5.872042 1.274551)
-				(xy 5.872042 0.864874) (xy 5.872042 0.455196) (xy 5.280286 0.455196) (xy 4.68853 0.455196) (xy 4.68853 0.864874)
-				(xy 4.324372 0.864874) (xy 4.324372 0.364157) (xy 4.324372 -0.18208) (xy 4.68853 -0.18208) (xy 4.68853 0.182078)
-				(xy 5.234766 0.182078) (xy 5.781003 0.182078) (xy 5.781003 -0.18208) (xy 5.781003 -0.546237) (xy 5.234766 -0.546237)
-				(xy 4.68853 -0.546237) (xy 4.68853 -0.18208) (xy 4.324372 -0.18208) (xy 4.324372 -0.819356) (xy 5.13258 -0.819356)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "04273348-18d3-4f23-a577-ab6dac0c3184")
-		)
-		(fp_poly
-			(pts
-				(xy -9.513621 0.182078) (xy -9.513621 0.728315) (xy -10.150897 0.728315) (xy -10.788173 0.728315)
-				(xy -10.788173 1.001433) (xy -10.788173 1.274551) (xy -10.196417 1.274551) (xy -9.864491 1.283668)
-				(xy -9.680006 1.316244) (xy -9.608993 1.380118) (xy -9.60466 1.41111) (xy -9.641079 1.483981) (xy -9.772439 1.526343)
-				(xy -10.031899 1.545008) (xy -10.269248 1.54767) (xy -10.646248 1.532504) (xy -10.920812 1.490996)
-				(xy -11.043083 1.438422) (xy -11.100796 1.289044) (xy -11.13732 1.01492) (xy -11.152655 0.672149)
-				(xy -11.146801 0.316827) (xy -11.135113 0.182078) (xy -10.788173 0.182078) (xy -10.769741 0.367084)
-				(xy -10.677301 0.44181) (xy -10.476981 0.455196) (xy -10.21925 0.439487) (xy -10.026065 0.40153)
-				(xy -10.021784 0.399937) (xy -9.909811 0.27571) (xy -9.877779 0.126818) (xy -9.893987 -0.002637)
-				(xy -9.97352 -0.067226) (xy -10.162745 -0.089139) (xy -10.332976 -0.09104) (xy -10.602441 -0.085073)
-				(xy -10.736814 -0.048385) (xy -10.783062 0.047206) (xy -10.788173 0.182078) (xy -11.135113 0.182078)
-				(xy -11.119758 0.005052) (xy -11.071527 -0.20708) (xy -11.043083 -0.254911) (xy -10.890036 -0.314198)
-				(xy -10.591485 -0.352164) (xy -10.223728 -0.364158) (xy -9.513621 -0.364158)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "8d27069c-23d9-47ae-bdee-baa5ebc5ce13")
-		)
-		(fp_poly
-			(pts
-				(xy 1.667522 -0.809317) (xy 1.718308 -0.759859) (xy 1.750011 -0.641962) (xy 1.767095 -0.426613)
-				(xy 1.774024 -0.084792) (xy 1.775268 0.364157) (xy 1.773724 0.84732) (xy 1.766115 1.177427) (xy 1.747977 1.383496)
-				(xy 1.714846 1.494542) (xy 1.662258 1.539584) (xy 1.593189 1.54767) (xy 1.491494 1.527739) (xy 1.436544 1.440186)
-				(xy 1.414458 1.243371) (xy 1.41111 1.001433) (xy 1.41111 0.455196) (xy 0.773834 0.455196) (xy 0.136558 0.455196)
-				(xy 0.136558 1.001433) (xy 0.129915 1.306517) (xy 0.100731 1.471369) (xy 0.035126 1.537627) (xy -0.04552 1.54767)
-				(xy -0.119853 1.537631) (xy -0.170639 1.488173) (xy -0.202342 1.370276) (xy -0.219426 1.154927)
-				(xy -0.226355 0.813106) (xy -0.227599 0.364157) (xy -0.226055 -0.119006) (xy -0.218446 -0.449113)
-				(xy -0.200308 -0.655182) (xy -0.167177 -0.766228) (xy -0.11459 -0.81127) (xy -0.04552 -0.819356)
-				(xy 0.059703 -0.797622) (xy 0.114518 -0.703655) (xy 0.134616 -0.494304) (xy 0.136558 -0.318639)
-				(xy 0.136558 0.182078) (xy 0.773834 0.182078) (xy 1.41111 0.182078) (xy 1.41111 -0.318639) (xy 1.419013 -0.608002)
-				(xy 1.453183 -0.758744) (xy 1.529311 -0.814015) (xy 1.593189 -0.819356)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "d0b57f01-9af1-4a38-803b-b65730217c69")
-		)
-		(fp_poly
-			(pts
-				(xy -2.406581 -0.361564) (xy -1.996968 -0.34162) (xy -1.718674 -0.28609) (xy -1.546322 -0.176733)
-				(xy -1.454533 0.004689) (xy -1.417927 0.276414) (xy -1.411128 0.656681) (xy -1.411112 0.758243)
-				(xy -1.414375 1.139004) (xy -1.429588 1.372997) (xy -1.464884 1.49549) (xy -1.528401 1.541754) (xy -1.593191 1.54767)
-				(xy -1.679698 1.533979) (xy -1.733453 1.469803) (xy -1.762155 1.320487) (xy -1.773506 1.051377)
-				(xy -1.77527 0.728315) (xy -1.77527 -0.09104) (xy -2.184947 -0.09104) (xy -2.594624 -0.09104) (xy -2.594624 0.728315)
-				(xy -2.597667 1.1176) (xy -2.611928 1.359495) (xy -2.645109 1.488655) (xy -2.704912 1.539735) (xy -2.776703 1.54767)
-				(xy -2.863211 1.533979) (xy -2.916965 1.469803) (xy -2.945668 1.320487) (xy -2.957019 1.051377)
-				(xy -2.958782 0.728315) (xy -2.958782 -0.09104) (xy -3.413979 -0.09104) (xy -3.869176 -0.09104)
-				(xy -3.869176 0.728315) (xy -3.872219 1.1176) (xy -3.88648 1.359495) (xy -3.919661 1.488655) (xy -3.979464 1.539735)
-				(xy -4.051255 1.54767) (xy -4.132483 1.535684) (xy -4.185164 1.478266) (xy -4.21543 1.343225) (xy -4.229413 1.098369)
-				(xy -4.233244 0.711508) (xy -4.233334 0.591756) (xy -4.233334 -0.364158) (xy -2.972892 -0.364158)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "14f3c4c5-d7d2-41fd-8081-fbddaae6b858")
-		)
-		(fp_poly
-			(pts
-				(xy -14.277337 -0.806241) (xy -13.965717 -0.768859) (xy -13.810723 -0.710149) (xy -13.810682 -0.710108)
-				(xy -13.74925 -0.557132) (xy -13.713501 -0.289791) (xy -13.703972 0.026818) (xy -13.721196 0.327602)
-				(xy -13.765708 0.547463) (xy -13.79985 0.608236) (xy -13.836754 0.735168) (xy -13.765998 0.959287)
-				(xy -13.708811 1.078014) (xy -13.57912 1.340925) (xy -13.532495 1.481261) (xy -13.566852 1.537387)
-				(xy -13.680105 1.547668) (xy -13.683293 1.54767) (xy -13.836679 1.461678) (xy -14.005598 1.217527)
-				(xy -14.046268 1.137992) (xy -14.173248 0.895264) (xy -14.290682 0.774398) (xy -14.466542 0.732907)
-				(xy -14.701685 0.728315) (xy -15.158065 0.728315) (xy -15.158065 1.137992) (xy -15.169979 1.394008)
-				(xy -15.219447 1.515071) (xy -15.327064 1.547513) (xy -15.340144 1.54767) (xy -15.414477 1.537631)
-				(xy -15.465263 1.488173) (xy -15.496965 1.370276) (xy -15.51405 1.154927) (xy -15.520979 0.813106)
-				(xy -15.522223 0.364157) (xy -15.522223 -0.04552) (xy -15.158065 -0.04552) (xy -15.158065 0.455196)
-				(xy -14.611829 0.455196) (xy -14.065592 0.455196) (xy -14.065592 -0.04552) (xy -14.065592 -0.546237)
-				(xy -14.611829 -0.546237) (xy -15.158065 -0.546237) (xy -15.158065 -0.04552) (xy -15.522223 -0.04552)
-				(xy -15.522223 -0.819356) (xy -14.721076 -0.819356)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "35fec0d7-fc70-4a32-908f-0c2f86871b98")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 		(layer "F.Cu")
@@ -2243,7 +2006,7 @@
 		(property "Reference" "J4"
 			(at 0 -5.5 90)
 			(layer "F.SilkS")
-			(uuid "9117318d-5f94-44e1-b3f7-52a4f9351c0a")
+			(uuid "b04f32c9-1b6d-4cba-82e8-999882d91dee")
 			(effects
 				(font
 					(size 1 1)
@@ -2255,7 +2018,7 @@
 			(at 0 5 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8aef0a2-fbdc-4e4c-8a45-9122c6da597f")
+			(uuid "fae6b40a-d50c-4c6f-a281-15d79ed244ba")
 			(effects
 				(font
 					(size 1 1)
@@ -2268,7 +2031,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60129e40-82c2-4da3-ba87-de5a89c24599")
+			(uuid "0b977dfa-ba50-4bfa-9625-fe2e631a7916")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2044,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79917842-4132-4596-b32e-a3b0a4ed356f")
+			(uuid "7cfa265b-9f49-4b78-b7ea-5aacef4240a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,9 +2053,16 @@
 			)
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
-		(path "/a58b925e-ef98-41e6-9967-c591fad237a5")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "S1" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2444,7 +2214,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_A1")
 			(pintype "passive")
 			(uuid "808229d6-b50d-4410-b6f5-94f23d8c5399")
 		)
@@ -2453,7 +2223,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_A4")
 			(pintype "passive")
 			(uuid "80f15f25-44f3-41bc-b841-0d133e00b064")
 		)
@@ -2462,7 +2232,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(J4-CC1)")
-			(pinfunction "CC1")
+			(pinfunction "CC1_A5")
 			(pintype "bidirectional")
 			(uuid "b122e309-4ef5-4179-a74b-f721778dbda7")
 		)
@@ -2471,7 +2241,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D4_P")
-			(pinfunction "D+")
+			(pinfunction "D+_A6")
 			(pintype "bidirectional")
 			(uuid "82577f24-8a5f-40f2-a8b4-7eec789959d3")
 		)
@@ -2480,7 +2250,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D4_N")
-			(pinfunction "D-")
+			(pinfunction "D-_A7")
 			(pintype "bidirectional")
 			(uuid "990deef8-8ef2-4e34-b4e0-2e7d3c8982d3")
 		)
@@ -2489,7 +2259,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(J4-SBU1-PadA8)")
-			(pinfunction "SBU1")
+			(pinfunction "SBU1_A8")
 			(pintype "bidirectional+no_connect")
 			(uuid "4a7fc62c-cd24-4d4e-b8c3-1038d211501e")
 		)
@@ -2498,7 +2268,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_A9")
 			(pintype "passive")
 			(uuid "9b8a6771-87d5-43d4-b979-7f20c7b6052e")
 		)
@@ -2507,7 +2277,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_A12")
 			(pintype "passive")
 			(uuid "c9af0b89-3f0b-45b6-b8f2-d9efba451f21")
 		)
@@ -2516,7 +2286,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_B1")
 			(pintype "passive")
 			(uuid "4f46fc66-7e58-4cbd-824e-7abaf6c91e2f")
 		)
@@ -2525,7 +2295,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_B4")
 			(pintype "passive")
 			(uuid "bdf8b89d-bd08-4f21-9a6a-39a3e009daae")
 		)
@@ -2534,7 +2304,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(J4-CC2)")
-			(pinfunction "CC2")
+			(pinfunction "CC2_B5")
 			(pintype "bidirectional")
 			(uuid "f4d1879c-19b2-4294-a07c-1b8992507872")
 		)
@@ -2543,7 +2313,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D4_P")
-			(pinfunction "D+")
+			(pinfunction "D+_B6")
 			(pintype "bidirectional")
 			(uuid "f5a9ed98-b527-4981-85d9-f2a80707aa3f")
 		)
@@ -2552,7 +2322,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D4_N")
-			(pinfunction "D-")
+			(pinfunction "D-_B7")
 			(pintype "bidirectional")
 			(uuid "417102ae-70a8-4e5f-b1e8-4c5035e509d3")
 		)
@@ -2561,7 +2331,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(J4-SBU2-PadB8)")
-			(pinfunction "SBU2")
+			(pinfunction "SBU2_B8")
 			(pintype "bidirectional+no_connect")
 			(uuid "93fe7f46-036f-4761-8f9d-a538874db6de")
 		)
@@ -2570,7 +2340,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_B9")
 			(pintype "passive")
 			(uuid "9a717808-448f-43e8-8937-fe3540328db4")
 		)
@@ -2579,7 +2349,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_B12")
 			(pintype "passive")
 			(uuid "541e312f-7495-4b79-8e4b-b71b1a7a97f9")
 		)
@@ -2591,7 +2361,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "e69047d9-ced4-4ecb-b549-62ea219a5ab6")
 		)
@@ -2603,7 +2373,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "54040877-5c9f-4fa4-8924-1dc349211d38")
 		)
@@ -2615,7 +2385,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "4f692563-4e14-4a05-87e9-932d8e0eb35f")
 		)
@@ -2627,7 +2397,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "1b5f8afd-ff3a-42e4-9b19-44ade15ba44c")
 		)
@@ -2654,7 +2424,7 @@
 			(at 0 -5.5 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e3b540f8-32cc-4b01-9b32-6abf052432d7")
+			(uuid "4b6585ae-9f35-4486-b46e-4d7267f1a146")
 			(effects
 				(font
 					(size 1 1)
@@ -2666,7 +2436,7 @@
 			(at 0 5 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33d17427-57ff-4ca2-bffc-f718fba1ebf4")
+			(uuid "c62a914d-3e80-4ad0-9c24-fe37cab2e8a6")
 			(effects
 				(font
 					(size 1 1)
@@ -2679,7 +2449,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5cdfb4bd-d04b-47fe-84d7-52d71df31b25")
+			(uuid "fbfc3ca5-2ae4-45ea-960e-ac9e94011a97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2462,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9294fd9-4e1d-4dd5-ad94-13aa7e8e8382")
+			(uuid "289c4ba2-b8a4-468d-97e6-ab8704516722")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,9 +2471,16 @@
 			)
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
-		(path "/d09fe19e-8920-46fe-b0b6-b2bf362baff5")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "S1" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2855,7 +2632,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_A1")
 			(pintype "passive")
 			(uuid "33246cbf-212f-4b22-bbca-c09feb2425bd")
 		)
@@ -2864,7 +2641,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_A4")
 			(pintype "passive")
 			(uuid "45c313cb-aff5-4a90-8f60-775cfabcfe05")
 		)
@@ -2873,7 +2650,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(J3-CC1)")
-			(pinfunction "CC1")
+			(pinfunction "CC1_A5")
 			(pintype "bidirectional")
 			(uuid "69640c30-0d89-466c-b2da-d35741eaba75")
 		)
@@ -2882,7 +2659,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D3_P")
-			(pinfunction "D+")
+			(pinfunction "D+_A6")
 			(pintype "bidirectional")
 			(uuid "8ea344d7-cb00-4790-acdf-eb2eff24bef1")
 		)
@@ -2891,7 +2668,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D3_N")
-			(pinfunction "D-")
+			(pinfunction "D-_A7")
 			(pintype "bidirectional")
 			(uuid "5a9cdb59-932b-41e2-b3ca-923e8ce05750")
 		)
@@ -2900,7 +2677,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(J3-SBU1-PadA8)")
-			(pinfunction "SBU1")
+			(pinfunction "SBU1_A8")
 			(pintype "bidirectional+no_connect")
 			(uuid "aa096670-0d36-4973-ab02-704973934e83")
 		)
@@ -2909,7 +2686,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_A9")
 			(pintype "passive")
 			(uuid "6dec7361-afd4-4f47-933e-4a05aab57bcb")
 		)
@@ -2918,7 +2695,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_A12")
 			(pintype "passive")
 			(uuid "af0b2bd0-75b8-4030-b328-6d928b7c4083")
 		)
@@ -2927,7 +2704,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_B1")
 			(pintype "passive")
 			(uuid "cbac3c7e-d28f-40bb-ae78-f3202dd2a695")
 		)
@@ -2936,7 +2713,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_B4")
 			(pintype "passive")
 			(uuid "c532fb73-cc2a-41e5-ae2e-86aa257ef64b")
 		)
@@ -2945,7 +2722,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(J3-CC2)")
-			(pinfunction "CC2")
+			(pinfunction "CC2_B5")
 			(pintype "bidirectional")
 			(uuid "d9fec97a-6701-4f2a-846e-c81b3061bae1")
 		)
@@ -2954,7 +2731,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D3_P")
-			(pinfunction "D+")
+			(pinfunction "D+_B6")
 			(pintype "bidirectional")
 			(uuid "52391eb9-f150-4f25-82ea-5cbe5aae41dc")
 		)
@@ -2963,7 +2740,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D3_N")
-			(pinfunction "D-")
+			(pinfunction "D-_B7")
 			(pintype "bidirectional")
 			(uuid "df3523a8-8ef7-4c79-a423-bf04b119b8bb")
 		)
@@ -2972,7 +2749,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(J3-SBU2-PadB8)")
-			(pinfunction "SBU2")
+			(pinfunction "SBU2_B8")
 			(pintype "bidirectional+no_connect")
 			(uuid "360d8cfe-8dbe-453c-95e9-f7bb116a923e")
 		)
@@ -2981,7 +2758,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_B9")
 			(pintype "passive")
 			(uuid "cb11d08b-3e87-4290-a8f6-4cfb331e7a34")
 		)
@@ -2990,7 +2767,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_B12")
 			(pintype "passive")
 			(uuid "8d0d8903-866b-4161-9fe1-4f921d7f22ce")
 		)
@@ -3002,7 +2779,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "e48364dc-8e48-4b9d-86e8-d11563ad5e89")
 		)
@@ -3014,7 +2791,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "320ab949-eeb0-421e-b249-3753e3e6e23e")
 		)
@@ -3026,7 +2803,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "787897ed-6048-4809-af99-e2ce392f1274")
 		)
@@ -3038,7 +2815,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "d4f40440-f41c-4f1e-a99b-d8503ee2e7af")
 		)
@@ -3064,7 +2841,7 @@
 		(property "Reference" "R4"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "ab97ece0-8f7c-4e7f-9fe8-55f25a47320a")
+			(uuid "cc655467-d094-4b78-854a-bc755b5c43e6")
 			(effects
 				(font
 					(size 1 1)
@@ -3075,7 +2852,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "86f763f7-2f6f-4b2c-8d10-24d23c56665d")
+			(uuid "91ba85f3-841d-4472-8cf1-395b4a9968f3")
 			(effects
 				(font
 					(size 1 1)
@@ -3083,11 +2860,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c05d55d3-4eba-48f7-b258-2e3bd145f3aa")
+			(uuid "f9d766dc-9634-4518-b718-551708695640")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +2876,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24cb3249-6744-498e-92e5-ef8a13dbcf63")
+			(uuid "5ce5aafb-2dc9-460d-92c4-f5c7d5fc4d36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,9 +2885,14 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/5f3c6dd9-29f2-4134-8ddd-d35fccbd9e97")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3264,7 +3046,7 @@
 		(property "Reference" "R8"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "ed8fa327-9dfd-4cf6-b1db-3d57559a4daa")
+			(uuid "3325b16d-80fa-4051-9b61-3be4807ac011")
 			(effects
 				(font
 					(size 1 1)
@@ -3275,7 +3057,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "036f1caa-7366-4cea-88d6-2c60e210d06f")
+			(uuid "342fd909-9f68-4f98-be1b-dec76f8332b8")
 			(effects
 				(font
 					(size 1 1)
@@ -3283,11 +3065,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6bb266bb-41ca-45a7-866c-6f4bba9842f4")
+			(uuid "77406ff1-4e68-4243-acec-7280b0e41bae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3081,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b355690-c22a-4937-b761-be583349cc17")
+			(uuid "c4ff46c5-0838-479e-9b55-4d1bdd284586")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,6 +3093,12 @@
 		(path "/8f155ff6-275b-4275-9ae3-25cc26e8c336")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3464,7 +3252,7 @@
 		(property "Reference" "J5"
 			(at 0 -5.5 90)
 			(layer "F.SilkS")
-			(uuid "cf48a5c0-8439-4e2c-a6d8-003c3c39d8fa")
+			(uuid "742db7d5-4395-4ccb-87f9-7553b949f16c")
 			(effects
 				(font
 					(size 1 1)
@@ -3476,7 +3264,7 @@
 			(at 0 5 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a43977a-ad5c-4af0-9457-921e3484e97c")
+			(uuid "dc637e48-6b07-4a70-9dd0-86bb559b8aa4")
 			(effects
 				(font
 					(size 1 1)
@@ -3489,7 +3277,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "90261d8f-4aa7-41a6-a890-d8cea4ad611b")
+			(uuid "46d80afb-3c11-4942-a363-11428b23bd61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3290,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3553195b-9b10-4f75-a8e4-5d44666e2047")
+			(uuid "c7717e90-f92b-4421-a13d-ccbbee169d9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,6 +3302,14 @@
 		(path "/15e9a6b3-cd52-4b32-846a-0f100d7ca56b")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "S1" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3676,7 +3472,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_A1")
 			(pintype "passive")
 			(uuid "6c425f64-d1c0-40c2-8678-2c9077896eb0")
 		)
@@ -3685,7 +3481,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_A4")
 			(pintype "passive")
 			(uuid "3d937173-e88c-403b-8186-4ff3f7b27de1")
 		)
@@ -3694,7 +3490,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(J5-CC1)")
-			(pinfunction "CC1")
+			(pinfunction "CC1_A5")
 			(pintype "bidirectional")
 			(uuid "c23e5b74-7708-4283-9d6d-5f372ef2802a")
 		)
@@ -3703,7 +3499,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB_D_P")
-			(pinfunction "D+")
+			(pinfunction "D+_A6")
 			(pintype "bidirectional")
 			(uuid "cbe6c2f7-f834-42e2-a7a7-2e4e9762b44a")
 		)
@@ -3712,7 +3508,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB_D_N")
-			(pinfunction "D-")
+			(pinfunction "D-_A7")
 			(pintype "bidirectional")
 			(uuid "ce442fcf-78b0-4dd0-86ef-e01037ff9641")
 		)
@@ -3721,7 +3517,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(J5-SBU1-PadA8)")
-			(pinfunction "SBU1")
+			(pinfunction "SBU1_A8")
 			(pintype "bidirectional+no_connect")
 			(uuid "d521eea3-251e-4a20-97d6-bcec4eb679d6")
 		)
@@ -3730,7 +3526,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_A9")
 			(pintype "passive")
 			(uuid "c78e4950-d4db-4248-a79a-ab41de698ad9")
 		)
@@ -3739,7 +3535,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_A12")
 			(pintype "passive")
 			(uuid "4b14aed4-d4c3-4868-bcfe-bd89978d737b")
 		)
@@ -3748,7 +3544,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_B1")
 			(pintype "passive")
 			(uuid "53a7c99f-f9a4-445a-8494-6fa094445a56")
 		)
@@ -3757,7 +3553,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_B4")
 			(pintype "passive")
 			(uuid "d87e6698-f730-453e-b348-04189b235b55")
 		)
@@ -3766,7 +3562,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(J5-CC2)")
-			(pinfunction "CC2")
+			(pinfunction "CC2_B5")
 			(pintype "bidirectional")
 			(uuid "ba830935-3aa3-43d1-bafb-32377fc998a7")
 		)
@@ -3775,7 +3571,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB_D_P")
-			(pinfunction "D+")
+			(pinfunction "D+_B6")
 			(pintype "bidirectional")
 			(uuid "051ab548-47c0-4655-92fb-bf9458329b2c")
 		)
@@ -3784,7 +3580,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB_D_N")
-			(pinfunction "D-")
+			(pinfunction "D-_B7")
 			(pintype "bidirectional")
 			(uuid "8e07672c-1a6b-4c0b-aef6-86f53fb8e03c")
 		)
@@ -3793,7 +3589,7 @@
 			(size 0.3 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(J5-SBU2-PadB8)")
-			(pinfunction "SBU2")
+			(pinfunction "SBU2_B8")
 			(pintype "bidirectional+no_connect")
 			(uuid "dfafd54a-9915-43ba-9af9-295e718c2894")
 		)
@@ -3802,7 +3598,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_B9")
 			(pintype "passive")
 			(uuid "f7cdd4f0-24eb-4d75-be4e-5b9fedefe5c1")
 		)
@@ -3811,7 +3607,7 @@
 			(size 0.6 1.24)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_B12")
 			(pintype "passive")
 			(uuid "3af524d1-0322-4028-9bfc-ca3b7f1691b2")
 		)
@@ -3823,7 +3619,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "6119a3bf-34dd-454a-81f8-11ec6c2c02fb")
 		)
@@ -3835,7 +3631,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "02ee4a2b-9599-4615-916b-d19b5fefb827")
 		)
@@ -3847,7 +3643,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "795ed2a5-1c60-4bbc-8c8f-3c8cb0e2d9ab")
 		)
@@ -3859,7 +3655,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD")
+			(pinfunction "SHIELD_S1")
 			(pintype "passive")
 			(uuid "07e0a193-bbef-4b9a-804e-22be78d753ad")
 		)
@@ -3886,7 +3682,7 @@
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "59377dd2-3ba8-41ea-9715-712e6e647a9a")
+			(uuid "eeaf305d-22a6-49c0-b37a-924ec1501daa")
 			(effects
 				(font
 					(size 1 1)
@@ -3898,7 +3694,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c616006-1a0b-48b8-938f-bede09d1e98b")
+			(uuid "4fb7261c-76a8-495c-9e53-06b90ea8aedf")
 			(effects
 				(font
 					(size 1 1)
@@ -3906,11 +3702,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9c3fde5-ebab-4fa0-b8c0-b82f21606a35")
+			(uuid "ec3ad96d-caad-4f54-86b0-72ae16c09f57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3718,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b83b89d4-c9e8-4e73-8462-92ee5209281e")
+			(uuid "f7ca8c09-9db5-4bc4-8c52-7b9ef79bc661")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,6 +3730,12 @@
 		(path "/f02d04ad-4763-4e52-95cc-f706526b4c54")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4087,7 +3889,7 @@
 			(at 0 -2.45 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "65a6a646-b6c5-48f6-b2e2-a500a5d8180e")
+			(uuid "8b94a6fa-9e73-4327-a6f9-60d61b39f8cc")
 			(effects
 				(font
 					(size 1 1)
@@ -4099,7 +3901,7 @@
 			(at 0 2.45 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc9de49c-df0c-486a-a842-480363854acf")
+			(uuid "0c630d9c-fb50-4422-affd-575454d21bc7")
 			(effects
 				(font
 					(size 1 1)
@@ -4107,11 +3909,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51ac9ad6-d9da-404c-adb8-f999684d925e")
+			(uuid "e510bec6-dc95-4f2f-927c-9541f26b02d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +3925,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2aad522-0f2b-4329-8426-9bae29b48d97")
+			(uuid "fcef7577-5ab6-4319-89c1-95b3106b69b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,6 +3937,12 @@
 		(path "/caf77492-3a1c-41b5-a5f1-76b41cdeafec")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4197,7 +4005,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
 			(net "Net-(U1-XTALIN{slash}CLKIN)")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "2d53f2a1-6df3-4a7f-9237-1a4657f29558")
 		)
@@ -4207,7 +4015,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
 			(net "Net-(U1-XTALOUT)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "da2dea45-366b-41ab-a609-fc4108c3d022")
 		)
@@ -4247,7 +4055,7 @@
 		(property "Reference" "J2"
 			(at 4.4 -7.05 90)
 			(layer "F.SilkS")
-			(uuid "cf47ac99-cb4f-4a30-aa2d-48865c6afe11")
+			(uuid "ca5e1571-554e-4cf2-a09e-fc6987cd1a96")
 			(effects
 				(font
 					(size 1 1)
@@ -4258,7 +4066,7 @@
 		(property "Value" "USB_A"
 			(at 3.5 2.4 90)
 			(layer "F.Fab")
-			(uuid "d3c08a26-d4b2-480d-8e1f-8fc0924f0bcf")
+			(uuid "5ab76cba-a989-4a32-a594-b9f5d87edc33")
 			(effects
 				(font
 					(size 1 1)
@@ -4266,12 +4074,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2d270bd-4d34-483e-bb15-c4d1ea86f462")
+			(uuid "502decb1-22a1-4b49-9bd5-fa183762ca6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4092,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67c0f844-b983-4ed7-b152-166ef566a262")
+			(uuid "e39e8109-2645-44dd-8a19-960f7cf423af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,9 +4101,14 @@
 			)
 		)
 		(property ki_fp_filters "USB*")
-		(path "/8ef0003c-d26f-4dde-8318-54cbbe804764")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4476,7 +4289,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
-			(pinfunction "VBUS")
+			(pinfunction "VBUS_1")
 			(pintype "power_in")
 			(uuid "4d48394c-0cdc-4cd8-ac68-96e86b7c5cf9")
 		)
@@ -4487,7 +4300,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D2_P")
-			(pinfunction "D-")
+			(pinfunction "D-_2")
 			(pintype "bidirectional")
 			(uuid "cac98b2b-53df-43c0-95cf-3ccb9fb573fb")
 		)
@@ -4498,7 +4311,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D2_N")
-			(pinfunction "D+")
+			(pinfunction "D+_3")
 			(pintype "bidirectional")
 			(uuid "181cd149-29ca-4ef2-ab0a-2b928de2732d")
 		)
@@ -4509,7 +4322,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_4")
 			(pintype "power_in")
 			(uuid "b51a5852-009d-47df-8aa6-af911f175c85")
 		)
@@ -4520,7 +4333,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Shield")
+			(pinfunction "Shield_5")
 			(pintype "passive")
 			(uuid "83a80b37-a8bf-4c56-8e4a-ca323bece18f")
 		)
@@ -4531,7 +4344,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Shield")
+			(pinfunction "Shield_5")
 			(pintype "passive")
 			(uuid "a94fc28e-e9af-40c9-9b8a-a1d0d551f90a")
 		)
@@ -4542,20 +4355,20 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Shield")
+			(pinfunction "Shield_5")
 			(pintype "passive")
 			(uuid "30fdb454-b8e7-4ea6-8e5e-f4b131120be9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Molex_105057_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Molex_105057_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3.5 2 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4568,7 +4381,7 @@
 		(property "Reference" "R5"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "0a702244-f748-4af0-ba48-141b30c46b9d")
+			(uuid "b4c2c7e8-cf56-415a-b7e5-36a93f1a2808")
 			(effects
 				(font
 					(size 1 1)
@@ -4579,7 +4392,7 @@
 		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "90d917f2-ef5a-4612-9586-a95bb6534e67")
+			(uuid "7c62d6ae-a712-406b-a254-37c82250e7e6")
 			(effects
 				(font
 					(size 1 1)
@@ -4587,11 +4400,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d290f35b-f677-4703-8fb1-eee2b5f7a0d2")
+			(uuid "c1dedbab-fbb3-4462-b00b-472634e0d206")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4416,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de8b1a01-61b1-4930-a08b-e978fa511b8a")
+			(uuid "b7d91269-f4d8-45f5-ae6b-06d15ac39d9d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,6 +4428,12 @@
 		(path "/6be3374d-9ef7-45a8-a639-be6be1c25f33")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4769,7 +4588,7 @@
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3182b135-f5be-419b-a428-131531daea73")
+			(uuid "ba68318d-2d01-461a-bd07-2a8799bd0b11")
 			(effects
 				(font
 					(size 1 1)
@@ -4781,7 +4600,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c4cd826-097f-4ddb-afd3-77b4f5e9a0e0")
+			(uuid "5a68a5b7-8e89-4b40-b336-cadb2f086f68")
 			(effects
 				(font
 					(size 1 1)
@@ -4789,11 +4608,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91365bcc-87e2-4cea-b346-9c187c5d82fd")
+			(uuid "8df651c0-092f-4f98-8706-e2fe538da017")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +4624,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "354fb3c5-f542-4ee0-8035-e25d85d7b580")
+			(uuid "ff6488c6-5e6b-497c-aeba-5e9fd644e345")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,9 +4633,14 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/a76382d8-9bb0-4e57-a712-67bec7190e30")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4970,7 +4794,7 @@
 		(property "Reference" "R2"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "0fe87ff4-41e7-4f9e-9f3d-9835483000a0")
+			(uuid "3abed60e-8c94-49c0-b1af-31f7867f113c")
 			(effects
 				(font
 					(size 1 1)
@@ -4981,7 +4805,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "3c78e7b6-57d8-48a1-b0d1-8d37d16e62dc")
+			(uuid "f43271cd-f2b2-4187-b3f0-ae57441510b7")
 			(effects
 				(font
 					(size 1 1)
@@ -4989,11 +4813,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48abb02a-d313-4e2e-884a-645763218e0b")
+			(uuid "20ebfbd0-2729-48a1-9f6a-30d2f04bef4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +4829,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8c6200f-870f-4539-9813-d58d274f69de")
+			(uuid "51a4b65a-5676-4882-abda-5f0265b9a538")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,9 +4838,14 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/e14a5185-6e69-4714-9816-0f7ec2a8104f")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5171,7 +5000,7 @@
 			(at -6 -2 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8ff57481-0132-48a0-a4e4-c55e44854f60")
+			(uuid "553c6b86-8747-4d65-8e0d-7e2e0b7c353e")
 			(effects
 				(font
 					(size 1 1)
@@ -5183,7 +5012,7 @@
 			(at 0.06625 11.11125 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b9d8aed-5617-4eff-8353-fb3e1e7abb75")
+			(uuid "acfc5ec0-1a5f-4a44-a612-325bac18d354")
 			(effects
 				(font
 					(size 1 1)
@@ -5191,11 +5020,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d709e7b8-2707-4756-9c62-c182f08b5ebf")
+			(uuid "cd3a4198-7edf-4852-ada4-88bbf14c98a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5036,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2df39580-75ef-431c-97cd-46839d9c20aa")
+			(uuid "e3774bc1-9183-4bb1-bc92-d937cd489c87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,6 +5048,12 @@
 		(path "/6898e5ec-67c4-4e5e-9c91-e8106287cddd")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5373,7 +5208,7 @@
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6cffaf27-19f9-45e6-9fb4-5b16b4a27838")
+			(uuid "c880e4a5-6eea-420b-8249-2860fcbe947b")
 			(effects
 				(font
 					(size 1 1)
@@ -5385,7 +5220,7 @@
 			(at -1.92375 1.11125 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fafed69-cab5-4206-a8fb-31a1d67f891a")
+			(uuid "ee1c89aa-e0a1-4cf8-91ff-ebe2def5a3f8")
 			(effects
 				(font
 					(size 1 1)
@@ -5393,11 +5228,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b099ff6-b8f8-46c5-aaf1-b82bbb19e664")
+			(uuid "1523eaa3-35b2-4cf3-911a-f56967328b3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5244,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c58d25e-4210-4627-9002-b3a2f232c00a")
+			(uuid "14f0b045-b460-44d7-812d-288f8a097139")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,9 +5253,14 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/3cd5bb8d-fdd6-43ff-ac8c-1cb1dcee8125")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5575,7 +5415,7 @@
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9caee631-4f74-4cae-9fc0-424aae163aed")
+			(uuid "3c106f8e-54cf-4614-9e91-3640ffe0fdc3")
 			(effects
 				(font
 					(size 1 1)
@@ -5587,7 +5427,7 @@
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "76309998-7525-4291-aa00-bc79b3e8df44")
+			(uuid "f366e4cc-4be3-4744-90e6-89969af91e49")
 			(effects
 				(font
 					(size 1 1)
@@ -5595,11 +5435,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bcd65690-4831-4ef9-9f87-3e05a1733c44")
+			(uuid "588d9d45-8b87-4314-b9ad-85a3a29ddeda")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5451,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dac2cfb7-5ba5-4717-b490-994283061eea")
+			(uuid "97773e69-48b4-4a74-bed7-23e629f76495")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,9 +5460,14 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/c9476214-84b0-429a-93c0-9aa42f430cdb")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5777,7 +5622,7 @@
 			(at 0 -4.3 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f028419b-d953-48ed-a2de-f80dca1a19a1")
+			(uuid "5fb754e1-509f-4b6e-b3b1-fb706192dc1e")
 			(effects
 				(font
 					(size 1 1)
@@ -5789,7 +5634,7 @@
 			(at 0 4.3 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea6c1515-f3e4-4f1a-be6f-4a2a8ed3811d")
+			(uuid "ba3c4337-de1d-412a-8864-28ed2fca8c5e")
 			(effects
 				(font
 					(size 1 1)
@@ -5801,7 +5646,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8b54559-b1d3-4d50-8589-d6dd95713bce")
+			(uuid "5a998fed-cd14-473d-b62d-2926866e6f93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +5658,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91718dbc-630e-45c7-be46-ec58b97f24cc")
+			(uuid "66c88bdc-40b1-4845-ac1e-46d35c5159ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,6 +5670,15 @@
 		(path "/a184fc24-920a-4380-8112-eb88c7d2bb71")
 		(sheetname "/")
 		(sheetfile "Rhenium-Hub.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "27" "30" "31" "26" "11" "35" "33" "32" "34" "14" "24" "22" "28"
+					"25" "5" "10" "29" "36" "37" "15" "23" "1" "2" "12" "13" "3" "4" "16"
+					"17" "6" "7" "18" "19" "8" "9" "20" "21"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6211,7 +6065,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "D1_N")
-			(pinfunction "USBDM_DN1/PRT_DIS_M1")
+			(pinfunction "USBDM_DN1/PRT_DIS_M1_1")
 			(pintype "bidirectional")
 			(uuid "ee28f641-b25c-49f1-91b7-e13d17b8f4f8")
 		)
@@ -6221,7 +6075,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "D1_P")
-			(pinfunction "USBDP_DN1/PRT_DIS_P1")
+			(pinfunction "USBDP_DN1/PRT_DIS_P1_2")
 			(pintype "bidirectional")
 			(uuid "9579318c-b9ec-40be-a0c4-e8c0eb5eaef2")
 		)
@@ -6231,7 +6085,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "D2_N")
-			(pinfunction "USBDM_DN2/PRT_DIS_M2")
+			(pinfunction "USBDM_DN2/PRT_DIS_M2_3")
 			(pintype "bidirectional")
 			(uuid "5996077a-969a-4e54-b195-046f51daf780")
 		)
@@ -6241,7 +6095,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "D2_P")
-			(pinfunction "USBDP_DN2/PRT_DIS_P2")
+			(pinfunction "USBDP_DN2/PRT_DIS_P2_4")
 			(pintype "bidirectional")
 			(uuid "aa46fee8-aef3-4238-9f77-ee349af95f32")
 		)
@@ -6250,8 +6104,8 @@
 			(size 0.825 0.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+3.3V")
-			(pinfunction "VDDA33")
+			(net "+3V3")
+			(pinfunction "VDDA33_5")
 			(pintype "power_in")
 			(uuid "d933a8f7-352c-4cce-8835-bbb3bd1768dd")
 		)
@@ -6261,7 +6115,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "D3_N")
-			(pinfunction "USBDM_DN3/PRT_DIS_M3")
+			(pinfunction "USBDM_DN3/PRT_DIS_M3_6")
 			(pintype "bidirectional")
 			(uuid "e576c282-f7a1-44f6-b3a0-35d4de91db32")
 		)
@@ -6271,7 +6125,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "D3_P")
-			(pinfunction "USBDP_DN3/PRT_DIS_P3")
+			(pinfunction "USBDP_DN3/PRT_DIS_P3_7")
 			(pintype "bidirectional")
 			(uuid "8cbc86b2-9a9f-42f9-979d-1ed6116a5652")
 		)
@@ -6281,7 +6135,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "D4_N")
-			(pinfunction "USBDM_DN4/PRT_DIS_M4")
+			(pinfunction "USBDM_DN4/PRT_DIS_M4_8")
 			(pintype "bidirectional")
 			(uuid "16c1ba8a-8e5c-4e9d-8fd5-e264bd7616e0")
 		)
@@ -6291,7 +6145,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "D4_P")
-			(pinfunction "USBDP_DN4/PRT_DIS_P4")
+			(pinfunction "USBDP_DN4/PRT_DIS_P4_9")
 			(pintype "bidirectional")
 			(uuid "3784221f-520c-44e7-a064-541d70669902")
 		)
@@ -6300,8 +6154,8 @@
 			(size 0.25 0.825)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+3.3V")
-			(pinfunction "VDDA33")
+			(net "+3V3")
+			(pinfunction "VDDA33_10")
 			(pintype "power_in")
 			(uuid "28f61e4e-78ee-4c14-8a49-2adf0838cb3b")
 		)
@@ -6311,7 +6165,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "TEST")
+			(pinfunction "TEST_11")
 			(pintype "input")
 			(uuid "d89d2313-0ddf-4c37-a2f6-e9b44bc1b069")
 		)
@@ -6321,7 +6175,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-PRTPWR1{slash}BC_EN1-Pad12)")
-			(pinfunction "PRTPWR1/BC_EN1")
+			(pinfunction "PRTPWR1/BC_EN1_12")
 			(pintype "bidirectional+no_connect")
 			(uuid "2ab5b73e-7274-4e47-862a-96fece7233d3")
 		)
@@ -6331,7 +6185,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-OCS_N1-Pad13)")
-			(pinfunction "OCS_N1")
+			(pinfunction "OCS_N1_13")
 			(pintype "input+no_connect")
 			(uuid "1d60749a-f6cc-4c7a-81a2-8726a86bffa1")
 		)
@@ -6341,8 +6195,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-CRFILT-Pad14)")
-			(pinfunction "CRFILT")
-			(pintype "input")
+			(pinfunction "CRFILT_14")
+			(pintype "input+no_connect")
 			(uuid "fd2d3241-3aa2-478f-b964-2030c13851e3")
 		)
 		(pad "15" smd roundrect
@@ -6350,8 +6204,8 @@
 			(size 0.25 0.825)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+3.3V")
-			(pinfunction "VDD33")
+			(net "+3V3")
+			(pinfunction "VDD33_15")
 			(pintype "power_in")
 			(uuid "3c33cb0f-cacb-426d-906b-7b3b24cb8cd5")
 		)
@@ -6361,7 +6215,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-PRTPWR2{slash}BC_EN2-Pad16)")
-			(pinfunction "PRTPWR2/BC_EN2")
+			(pinfunction "PRTPWR2/BC_EN2_16")
 			(pintype "bidirectional+no_connect")
 			(uuid "b6cbb50d-2a23-443e-be58-082993c65cb4")
 		)
@@ -6371,7 +6225,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-OCS_N2-Pad17)")
-			(pinfunction "OCS_N2")
+			(pinfunction "OCS_N2_17")
 			(pintype "input+no_connect")
 			(uuid "bd2e52e0-a637-4908-9d2a-21ec00dac7f8")
 		)
@@ -6381,7 +6235,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-PRTPWR3{slash}BC_EN3-Pad18)")
-			(pinfunction "PRTPWR3/BC_EN3")
+			(pinfunction "PRTPWR3/BC_EN3_18")
 			(pintype "bidirectional+no_connect")
 			(uuid "0f6b2661-3b5f-45a8-a575-e38ef3140e6e")
 		)
@@ -6391,7 +6245,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-OCS_N3-Pad19)")
-			(pinfunction "OCS_N3")
+			(pinfunction "OCS_N3_19")
 			(pintype "input+no_connect")
 			(uuid "1f9a3496-08c1-4887-a849-66f354dfbb1c")
 		)
@@ -6401,7 +6255,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-PRTPWR4{slash}BC_EN4-Pad20)")
-			(pinfunction "PRTPWR4/BC_EN4")
+			(pinfunction "PRTPWR4/BC_EN4_20")
 			(pintype "bidirectional+no_connect")
 			(uuid "7d9e89d7-b0a9-4489-9586-c346700ee8f2")
 		)
@@ -6411,7 +6265,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-OCS_N4-Pad21)")
-			(pinfunction "OCS_N4")
+			(pinfunction "OCS_N4_21")
 			(pintype "input+no_connect")
 			(uuid "e4b65d78-f647-4c47-ac7f-471090bef735")
 		)
@@ -6421,7 +6275,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-SDA{slash}SMBDATA{slash}NON_REM1-Pad22)")
-			(pinfunction "SDA/SMBDATA/NON_REM1")
+			(pinfunction "SDA/SMBDATA/NON_REM1_22")
 			(pintype "bidirectional+no_connect")
 			(uuid "69e6e40f-127c-43e9-8d1f-39043c68e304")
 		)
@@ -6430,8 +6284,8 @@
 			(size 0.825 0.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+3.3V")
-			(pinfunction "VDD33")
+			(net "+3V3")
+			(pinfunction "VDD33_23")
 			(pintype "power_in")
 			(uuid "e2dc1f88-3d13-4246-920a-e5fd624f5c44")
 		)
@@ -6441,7 +6295,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "SCL/SMBCLK/CFG_SEL0")
+			(pinfunction "SCL/SMBCLK/CFG_SEL0_24")
 			(pintype "bidirectional")
 			(uuid "5900e28c-336d-4d91-b88e-1da3e512a72f")
 		)
@@ -6451,7 +6305,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "HS_IND/CFG_SEL1")
+			(pinfunction "HS_IND/CFG_SEL1_25")
 			(pintype "bidirectional")
 			(uuid "c4891f89-e766-4215-bffc-660da64664a3")
 		)
@@ -6461,7 +6315,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-RESET_N)")
-			(pinfunction "RESET_N")
+			(pinfunction "RESET_N_26")
 			(pintype "input")
 			(uuid "5fd32748-4e52-4238-b404-29a38a388617")
 		)
@@ -6471,7 +6325,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
-			(pinfunction "VBUS_DET")
+			(pinfunction "VBUS_DET_27")
 			(pintype "input")
 			(uuid "e5b21763-8b50-4f9f-b65e-a462574a55fd")
 		)
@@ -6481,7 +6335,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-SUSP_IND{slash}LOCAL_PWR{slash}NON_REM0-Pad28)")
-			(pinfunction "SUSP_IND/LOCAL_PWR/NON_REM0")
+			(pinfunction "SUSP_IND/LOCAL_PWR/NON_REM0_28")
 			(pintype "bidirectional+no_connect")
 			(uuid "9b0cfb99-ed53-4ebb-880c-469be851ac9d")
 		)
@@ -6490,8 +6344,8 @@
 			(size 0.25 0.825)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+3.3V")
-			(pinfunction "VDDA33")
+			(net "+3V3")
+			(pinfunction "VDDA33_29")
 			(pintype "power_in")
 			(uuid "141c9c45-28d2-401b-90fb-22bd59b79ee7")
 		)
@@ -6501,7 +6355,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "USB_D_N")
-			(pinfunction "USBDM_UP")
+			(pinfunction "USBDM_UP_30")
 			(pintype "bidirectional")
 			(uuid "099d135c-21b4-4dde-ac64-5b774d4423d7")
 		)
@@ -6511,7 +6365,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "USB_D_P")
-			(pinfunction "USBDP_UP")
+			(pinfunction "USBDP_UP_31")
 			(pintype "bidirectional")
 			(uuid "41295ebc-b561-4f92-9e6e-0aa8655f69ef")
 		)
@@ -6521,7 +6375,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-XTALOUT)")
-			(pinfunction "XTALOUT")
+			(pinfunction "XTALOUT_32")
 			(pintype "output")
 			(uuid "21f19864-895f-485a-bb1d-35ecfed71d61")
 		)
@@ -6531,7 +6385,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-XTALIN{slash}CLKIN)")
-			(pinfunction "XTALIN/CLKIN")
+			(pinfunction "XTALIN/CLKIN_33")
 			(pintype "input")
 			(uuid "91e4b2ad-16a1-4617-b6e2-da9a436b5683")
 		)
@@ -6541,8 +6395,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-PLLFILT-Pad34)")
-			(pinfunction "PLLFILT")
-			(pintype "input")
+			(pinfunction "PLLFILT_34")
+			(pintype "input+no_connect")
 			(uuid "cb3bd585-a9fb-4adc-a42a-37a3b9ebe914")
 		)
 		(pad "35" smd roundrect
@@ -6551,7 +6405,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-RBIAS)")
-			(pinfunction "RBIAS")
+			(pinfunction "RBIAS_35")
 			(pintype "input")
 			(uuid "3aff63f1-1348-4548-8429-3f69c8380c38")
 		)
@@ -6560,8 +6414,8 @@
 			(size 0.25 0.825)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+3.3V")
-			(pinfunction "VDDA33")
+			(net "+3V3")
+			(pinfunction "VDDA33_36")
 			(pintype "power_in")
 			(uuid "0ea21b14-074e-4c61-a071-2541f2328d11")
 		)
@@ -6571,7 +6425,7 @@
 			(property pad_prop_heatsink)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
-			(pinfunction "VSS")
+			(pinfunction "VSS_37")
 			(pintype "power_in")
 			(zone_connect 2)
 			(uuid "60e7cbb0-635a-4f3b-93e6-1b72a497fd5f")

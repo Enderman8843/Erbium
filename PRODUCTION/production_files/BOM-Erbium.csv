@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC,Quantity
+0.1µF,"C1,C2,C3,C4,C5,C6",C_0603_1608Metric,C14663,6
+22pf,"C7,C8",C_0603_1608Metric,C1653,2
+5.1k,"R1,R2,R3,R4,R7,R8",C_0603_1608Metric,C23186,6
+Crystal,24Mhz1,Crystal_SMD_3225-4Pin_3.2x2.5mm,C9002,1
+USB2514B_Bi,U1,QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm,C510949,1
+12k,R6,C_0603_1608Metric,,1
+USB_A,J1,USB_A_Molex_105057_Vertical,,1
+USB_C_Receptacle_USB2.0_16P,J4,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,,1
+USB_C_Receptacle_USB2.0_16P,J3,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,,1
+USB_C_Receptacle_USB2.0_16P,J5,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,,1
+USB_A,J2,USB_A_Molex_105057_Vertical,,1
+10k,R5,C_0603_1608Metric,,1
