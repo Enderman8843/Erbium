@@ -21,6 +21,12 @@ JUST PlUG IT INTO YOUR COMPUTER VIA THE INPUT
 
 | Item | Description | Quantity | Unit Price ($) | Total Price ($) | URL |
 |------|-------------|----------|----------------|-----------------|-----|
-| PCBA | Custom PCB Manufacturing (JLCPCB) | 1 |  |  | https://jlcpcb.com |
+| PCBA | Custom PCB Manufacturing (JLCPCB) | 1 | 31 | 31 | https://jlcpcb.com |
 | Case | 3D Printed Case (PrintLegion) | 1 | 6.00 | 6.00 | https://hackclub.com |
-| **TOTAL** |  |  |  | **xxx0 $** |  |
+| **TOTAL** |  |  |  | **37 $** |  |
+
+
+# JLCPCB and Shipping
+<img width="1900" height="891" alt="image" src="https://github.com/user-attachments/assets/9722699f-b1c6-46f3-beb0-6afb871e1503" />
+<img width="1161" height="718" alt="image" src="https://github.com/user-attachments/assets/96e4b062-1ccd-415c-95db-fd3902b2428f" />
+
