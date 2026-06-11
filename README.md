@@ -1,4 +1,4 @@
-# Rhenium HUB
+# Erbium
 It is Hi-Speed USB HUB with USB2514B_B Chip and 24mhz crystal , With Support of USB C aswell as USB A
 
 
