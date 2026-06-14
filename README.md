@@ -28,9 +28,9 @@ JUST PlUG IT INTO YOUR COMPUTER VIA THE INPUT
 | Item | Description | Quantity | Unit Price ($) | Total Price ($) | URL |
 |------|-------------|----------|----------------|-----------------|-----|
 | PCBA | Custom PCB Manufacturing (JLCPCB) | 1 | 31.00 | 31.00 | https://jlcpcb.com |
-| Case | 3D Printed Case (PrintLegion) | 1 | 6.00 | 6.00 | https://hackclub.com |
+| Case | 3D Printed Case (Will be Printed Myself | 1 | 0.00 | 0.00 | https://hackclub.com |
 | USB Connector | USB Type-A Vertical Through-Hole Connector (Adam Tech USB-A-S-VT) | 1 | 2.00 | 2.00 | https://www.digikey.in/en/products/detail/adam-tech/USB-A-S-VT/9832290 |
-| **TOTAL** |  |  |  | **39.00** |  |
+| **TOTAL** |  |  |  | **33.00** |  |
 
 # JLCPCB and Shipping
 <img width="1900" height="891" alt="image" src="https://github.com/user-attachments/assets/9722699f-b1c6-46f3-beb0-6afb871e1503" />
