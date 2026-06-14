@@ -1,0 +1,5 @@
+Item,Description,Quantity,Unit Price ($),Total Price ($),URL
+PCBA,Custom PCB Manufacturing (JLCPCB),1,31.0,31.0,https://jlcpcb.com
+Case,3D Printed Case (Will be Printed Myself),1,0.0,0.0,https://hackclub.com
+USB Connector,USB Type-A Vertical Through-Hole Connector (Adam Tech USB-A-S-VT),1,2.0,2.0,https://www.digikey.in/en/products/detail/adam-tech/USB-A-S-VT/9832290
+TOTAL,,,,33.0,
