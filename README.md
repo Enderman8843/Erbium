@@ -7,11 +7,17 @@ It is Hi-Speed USB HUB with USB2514B_B Chip and 24mhz crystal , With Support of 
 JUST PlUG IT INTO YOUR COMPUTER VIA THE INPUT
 
 
-# PCB Layout and Render
+# PCB Layout
 
 | PCB Layout | Schematic / Wiring |
-|---|---|
-| <img width="925" height="763" alt="image" src="https://github.com/user-attachments/assets/b31be825-a737-4337-930c-39136f29dbd2" />| <img width="1185" height="757" alt="Schematic" src="https://github.com/user-attachments/assets/8020e82b-642c-47be-b0ec-c05f377020c1" /> |
+|------------|-------------------|
+| <img width="410" height="481" alt="PCB Layout" src="https://github.com/user-attachments/assets/0db0fd49-f758-43dc-82f2-6e403962d892" /> | <img width="1052" height="732" alt="Schematic / Wiring" src="https://github.com/user-attachments/assets/8f24f5a3-780d-40a4-96aa-19cd69a7d5e3" /> |
+
+# PCB Render
+
+| Front | Rear |
+|-------|------|
+| <img width="595" height="677" alt="PCB Front Render" src="https://github.com/user-attachments/assets/5d6e3b5e-f4c9-464b-b89b-9c4ffba7bf80" /> | <img width="636" height="676" alt="PCB Rear Render" src="https://github.com/user-attachments/assets/03e4ca8d-987c-4a55-94b1-d7fd03907bb9" /> |
 
 # Case 
 
