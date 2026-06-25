@@ -2314,43 +2314,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "USB_A_1"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
+			(property "Value" "USB_A"
+				(at -5.08 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 3.81 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2361,6 +2357,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB Type A connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2371,7 +2378,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "ki_keywords" "connector USB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2382,7 +2389,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_fp_filters" "USB*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2393,13 +2400,35 @@
 					)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "USB_A_1_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2408,8 +2437,30 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 4.826)
+					(end -4.318 5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 4.572)
+					(end -4.572 5.842)
 					(stroke
 						(width 0)
 						(type default)
@@ -2418,10 +2469,76 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
 					(stroke
 						(width 0)
 						(type default)
@@ -2431,11 +2548,23 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "USB_A_1_1_1"
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2443,6 +2572,78 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2952,6 +3153,18 @@
 		(uuid "2f7326a7-27ee-431f-95cb-c6b3fce58349")
 	)
 	(junction
+		(at 69.85 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ccc1c12-1bfc-4e21-9db6-206831567637")
+	)
+	(junction
+		(at 170.18 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66ea0ac1-ba8b-4b02-9141-029f1d63aace")
+	)
+	(junction
 		(at 165.1 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2976,6 +3189,18 @@
 		(uuid "a06600c1-f0d0-4609-8227-e746372cd7ec")
 	)
 	(junction
+		(at 237.49 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6ee2379-053e-4807-8649-114172f9f8f1")
+	)
+	(junction
+		(at 196.85 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b008a8cf-8106-42e5-96fe-4e534cd1efa0")
+	)
+	(junction
 		(at 74.93 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2992,6 +3217,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5c41d3d-64ed-484f-914f-fab65ee61f30")
+	)
+	(junction
+		(at 147.32 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6da9598-d4d5-4317-a3cf-0aa960854c7a")
 	)
 	(junction
 		(at 170.18 134.62)
@@ -3101,6 +3332,36 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 176.53) (xy 69.85 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c642d2-4856-4246-a966-86811cbddac3")
+	)
+	(wire
+		(pts
+			(xy 237.49 80.01) (xy 237.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165f91a2-659c-4a97-97e1-57c7bf6d64d9")
+	)
+	(wire
+		(pts
+			(xy 196.85 76.2) (xy 204.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d5ebaa-25c7-469e-99a3-fe0d1fd8add3")
+	)
+	(wire
+		(pts
 			(xy 219.71 50.8) (xy 219.71 53.34)
 		)
 		(stroke
@@ -3151,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 77.47) (xy 196.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a7e28a-c7b0-4f38-826a-c16e4c2dba7b")
+	)
+	(wire
+		(pts
 			(xy 92.71 156.21) (xy 92.71 158.75)
 		)
 		(stroke
@@ -3168,6 +3439,16 @@
 			(type default)
 		)
 		(uuid "53ca2cfe-c7e9-4430-9715-e7dd0c17e6db")
+	)
+	(wire
+		(pts
+			(xy 170.18 55.88) (xy 170.18 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f2f4d5-c6ae-41e2-bebe-b961b9d62adc")
 	)
 	(wire
 		(pts
@@ -3198,6 +3479,26 @@
 			(type default)
 		)
 		(uuid "7971f70f-4cf7-4ffa-8515-5f247cc9d062")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 147.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867a55bb-052c-4b46-83f3-6160567e7a4d")
+	)
+	(wire
+		(pts
+			(xy 69.85 176.53) (xy 69.85 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa3d9e4-e9c7-474c-9af0-94b7d1e1f5bb")
 	)
 	(wire
 		(pts
@@ -3238,6 +3539,16 @@
 			(type default)
 		)
 		(uuid "a4a6f15c-1dbc-41ff-b7dd-02b6840a8f94")
+	)
+	(wire
+		(pts
+			(xy 170.18 54.61) (xy 172.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77ed27d-a860-4977-8467-dbfac134790b")
 	)
 	(wire
 		(pts
@@ -3321,6 +3632,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 54.61) (xy 149.86 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3e75d1-c6e2-403b-9acf-2d35c94079ff")
+	)
+	(wire
+		(pts
 			(xy 30.48 80.01) (xy 52.07 80.01)
 		)
 		(stroke
@@ -3338,6 +3659,16 @@
 			(type default)
 		)
 		(uuid "ee7395e8-536a-4e18-abe7-d31de2bc1c2e")
+	)
+	(wire
+		(pts
+			(xy 237.49 76.2) (xy 245.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5138fed-5307-49b1-82ba-bceddbfa9165")
 	)
 	(wire
 		(pts
@@ -3375,7 +3706,7 @@
 	)
 	(global_label "D2_N"
 		(shape input)
-		(at 187.96 44.45 0)
+		(at 180.34 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3385,7 +3716,7 @@
 		)
 		(uuid "2694df2b-70b2-4ef4-bc69-3bcb11ba0207")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7228 44.45 0)
+			(at 188.1028 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3399,7 +3730,7 @@
 	)
 	(global_label "D2_P"
 		(shape input)
-		(at 187.96 46.99 0)
+		(at 180.34 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3409,7 +3740,7 @@
 		)
 		(uuid "286ba670-daaf-4ded-9183-fa82942ddef2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.6623 46.99 0)
+			(at 188.0423 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,7 +3754,7 @@
 	)
 	(global_label "D1_N"
 		(shape input)
-		(at 165.1 44.45 0)
+		(at 157.48 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3433,7 +3764,7 @@
 		)
 		(uuid "3382b5d3-d7b3-4ab8-a018-5a35a4165bab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.8628 44.45 0)
+			(at 165.2428 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3711,7 +4042,7 @@
 	)
 	(global_label "D1_P"
 		(shape input)
-		(at 165.1 46.99 0)
+		(at 157.48 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3721,7 +4052,7 @@
 		)
 		(uuid "d72d0d26-057f-4edd-bd34-7e57aed75d0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.8023 46.99 0)
+			(at 165.1823 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3903,7 +4234,7 @@
 			(uuid "281d1a81-65d4-4355-89bd-c1c9cf5d29b2")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "C5")
 					(unit 1)
@@ -3982,7 +4313,7 @@
 			(uuid "80de2e32-d38c-482f-ad9f-30b75d3f9b84")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR027")
 					(unit 1)
@@ -4061,7 +4392,7 @@
 			(uuid "58851135-b659-4905-b4e9-02e86939c572")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR029")
 					(unit 1)
@@ -4139,7 +4470,7 @@
 			(uuid "338cc3f9-ac08-4baf-8f98-5ebc70deceae")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR01")
 					(unit 1)
@@ -4264,7 +4595,7 @@
 			(uuid "4f3e6c6c-566b-4f68-9a07-6aeb75a60c40")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "J5")
 					(unit 1)
@@ -4274,7 +4605,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 187.96 39.37 270)
+		(at 180.34 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4285,7 +4616,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a370a97-2f94-4700-8e86-4ae479fd1821")
 		(property "Reference" "#PWR06"
-			(at 184.15 39.37 0)
+			(at 176.53 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +4627,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 191.77 39.3699 90)
+			(at 184.15 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4307,7 +4638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 39.37 0)
+			(at 180.34 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +4649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 39.37 0)
+			(at 180.34 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4329,7 +4660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 39.37 0)
+			(at 180.34 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4343,7 +4674,7 @@
 			(uuid "6d8f28fe-101a-4219-a9d1-0ab8618b336d")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR06")
 					(unit 1)
@@ -4425,7 +4756,7 @@
 			(uuid "a4680d08-a9c2-401e-92dd-2aafde425254")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "C12")
 					(unit 1)
@@ -4435,7 +4766,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 165.1 39.37 270)
+		(at 157.48 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4446,7 +4777,7 @@
 		(fields_autoplaced yes)
 		(uuid "250e41dc-f04e-4e0a-a33e-2c42aa72a79d")
 		(property "Reference" "#PWR05"
-			(at 161.29 39.37 0)
+			(at 153.67 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4457,7 +4788,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 168.91 39.3699 90)
+			(at 161.29 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4468,7 +4799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 39.37 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,7 +4810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 39.37 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4490,7 +4821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 39.37 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4504,87 +4835,9 @@
 			(uuid "9ddea852-0937-45e3-ae7a-00c581ec2ffa")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "301f2e0d-a42d-4dfe-ae56-d9838cc9727e")
-		(property "Reference" "#PWR020"
-			(at 204.47 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f17472a-c8a1-470f-8614-0a2cc253c70b")
-		)
-		(instances
-			(project "Rhenium-Hub"
-				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4664,7 +4917,7 @@
 			(uuid "2baecee7-ac4f-4a52-92e3-96f91a566469")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "C9")
 					(unit 1)
@@ -4743,7 +4996,7 @@
 			(uuid "f74aa1c4-fa42-4349-8983-e2f7a9807329")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR024")
 					(unit 1)
@@ -4868,7 +5121,7 @@
 			(uuid "635205c0-c1d8-4124-b20c-786bd3242840")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "J3")
 					(unit 1)
@@ -4898,7 +5151,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "56k"
 			(at 264.16 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4948,7 +5201,7 @@
 			(uuid "abbe6059-f5fc-48d1-b378-000e576a0743")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "R4")
 					(unit 1)
@@ -4958,7 +5211,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 54.61 0)
+		(at 170.18 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4969,7 +5222,7 @@
 		(fields_autoplaced yes)
 		(uuid "4648999a-6310-46e4-b86a-95c317c970b3")
 		(property "Reference" "#PWR013"
-			(at 177.8 60.96 0)
+			(at 170.18 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4980,7 +5233,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 59.69 0)
+			(at 170.18 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4990,7 +5243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 54.61 0)
+			(at 170.18 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +5254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 54.61 0)
+			(at 170.18 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5012,7 +5265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 54.61 0)
+			(at 170.18 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5026,7 +5279,7 @@
 			(uuid "222df5bd-bc84-4730-ae87-58b2a688f813")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR013")
 					(unit 1)
@@ -5035,8 +5288,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 157.48 54.61 0)
+		(lib_id "power:+3V3")
+		(at 43.18 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5045,9 +5298,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5bcfac12-d20d-4702-bf11-1b7f8425952e")
-		(property "Reference" "#PWR012"
-			(at 157.48 60.96 0)
+		(uuid "5aa207df-223e-441c-8188-f893d9879ca7")
+		(property "Reference" "#PWR07"
+			(at 46.99 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5057,18 +5310,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 157.48 59.69 0)
+		(property "Value" "+3V3"
+			(at 39.37 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 54.61 0)
+			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +5333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 54.61 0)
+			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5089,86 +5343,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac95aa93-272d-4a2e-8e12-b2083b7bbb1b")
-		)
-		(instances
-			(project "Rhenium-Hub"
-				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 245.11 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e2031f6-b4eb-4640-b4f4-6981249e40eb")
-		(property "Reference" "#PWR022"
-			(at 245.11 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5179,12 +5355,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0baca51-ca66-4000-b76f-beb4f3472d77")
+			(uuid "5513b225-5528-49f7-bad0-b3d75ee18e8b")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
-					(reference "#PWR022")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5192,7 +5368,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 54.61 0)
+		(at 147.32 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5203,7 +5379,7 @@
 		(fields_autoplaced yes)
 		(uuid "60736998-a1f2-4c1e-b83f-24c38a0113c1")
 		(property "Reference" "#PWR011"
-			(at 154.94 60.96 0)
+			(at 147.32 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +5390,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 59.69 0)
+			(at 147.32 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5224,7 +5400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 54.61 0)
+			(at 147.32 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5235,7 +5411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 54.61 0)
+			(at 147.32 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5246,7 +5422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 54.61 0)
+			(at 147.32 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5260,7 +5436,7 @@
 			(uuid "4c84963f-7dcd-4eae-ad39-a82ad55f2170")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR011")
 					(unit 1)
@@ -5342,87 +5518,9 @@
 			(uuid "8865e597-9501-4c2f-b88f-0dbe27bd89e7")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a38f0a3-ee22-4e7d-b026-5496150b705b")
-		(property "Reference" "#PWR031"
-			(at 77.47 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1868287-6b40-46ec-b951-63df8f19a2bc")
-		)
-		(instances
-			(project "Rhenium-Hub"
-				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5500,7 +5598,7 @@
 			(uuid "659bf9ef-4bf8-45d7-bc1d-3ba6e2559f04")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "R5")
 					(unit 1)
@@ -5510,7 +5608,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_A")
-		(at 180.34 44.45 0)
+		(at 172.72 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5521,7 +5619,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c722ae8-11b5-46fc-adee-c63494723f9e")
 		(property "Reference" "J2"
-			(at 180.34 31.75 0)
+			(at 172.72 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5531,7 +5629,7 @@
 			)
 		)
 		(property "Value" "USB_A"
-			(at 180.34 34.29 0)
+			(at 172.72 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5541,7 +5639,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_A_Molex_105057_Vertical"
-			(at 184.15 45.72 0)
+			(at 176.53 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5552,7 +5650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 45.72 0)
+			(at 176.53 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5563,7 +5661,7 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
-			(at 180.34 44.45 0)
+			(at 172.72 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5589,7 +5687,7 @@
 			(uuid "83727180-bc8b-4b78-8a7d-ce8128dc8112")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "J2")
 					(unit 1)
@@ -5598,8 +5696,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_A")
-		(at 157.48 44.45 0)
+		(lib_id "power:+5V")
+		(at 267.97 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5608,9 +5706,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7479ad55-0346-46f2-9ddb-6baf39a349d7")
-		(property "Reference" "J1"
-			(at 157.48 31.75 0)
+		(uuid "6d435360-8c0e-4b65-b53d-ce984023abff")
+		(property "Reference" "#PWR036"
+			(at 264.16 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5619,18 +5718,19 @@
 				)
 			)
 		)
-		(property "Value" "USB_A"
-			(at 157.48 34.29 0)
+		(property "Value" "+5V"
+			(at 271.78 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Molex_105057_Vertical"
-			(at 161.29 45.72 0)
+		(property "Footprint" ""
+			(at 267.97 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5741,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 45.72 0)
+			(at 267.97 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 267.97 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b9ce7a7-24a7-4cc6-a844-ef13d29b0f4e")
+		)
+		(instances
+			(project "Erbium"
+				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_A")
+		(at 149.86 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7479ad55-0346-46f2-9ddb-6baf39a349d7")
+		(property "Reference" "J1"
+			(at 149.86 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_A"
+			(at 149.86 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_A_Molex_105057_Vertical"
+			(at 153.67 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +5829,7 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
-			(at 157.48 44.45 0)
+			(at 149.86 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5678,7 +5855,7 @@
 			(uuid "1f402da5-564b-4661-91c8-5565e0437e3a")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "J1")
 					(unit 1)
@@ -5687,8 +5864,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 69.85 176.53 0)
+		(lib_id "power:+5V")
+		(at 267.97 45.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5697,9 +5874,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "781037e7-f5bf-4a97-b3b4-3ebc8106f7fc")
-		(property "Reference" "#PWR030"
-			(at 69.85 182.88 0)
+		(uuid "75163a0c-74f6-46c5-af47-dea1bd022e48")
+		(property "Reference" "#PWR037"
+			(at 264.16 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5709,18 +5886,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 69.85 181.61 0)
+		(property "Value" "+5V"
+			(at 271.78 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 176.53 0)
+			(at 267.97 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5731,7 +5909,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 176.53 0)
+			(at 267.97 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 267.97 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbd03ea4-8c04-419d-9a10-e4031600f6d4")
+		)
+		(instances
+			(project "Erbium"
+				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "781037e7-f5bf-4a97-b3b4-3ebc8106f7fc")
+		(property "Reference" "#PWR030"
+			(at 69.85 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5742,7 +5998,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 176.53 0)
+			(at 69.85 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5756,7 +6012,7 @@
 			(uuid "6a6161e0-b5bf-4f2a-ac50-49888bf72727")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR030")
 					(unit 1)
@@ -5834,7 +6090,7 @@
 			(uuid "58839753-4c75-44b9-9a36-a0957435f6de")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR023")
 					(unit 1)
@@ -5913,88 +6169,9 @@
 			(uuid "126a997e-9590-41bc-847d-6119b0c3f349")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 43.18 62.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "839862e7-307d-4cf3-be1a-741fcaf2afdf")
-		(property "Reference" "#PWR015"
-			(at 46.99 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 39.37 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 43.18 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8e18797-3e38-4190-8709-0343ce0ebcdd")
-		)
-		(instances
-			(project "Rhenium-Hub"
-				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6071,88 +6248,9 @@
 			(uuid "2dd805f1-cfac-46f4-905f-6be1449663a9")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 267.97 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "857db32c-0ecf-4dea-bedb-9dd60a9d528b")
-		(property "Reference" "#PWR08"
-			(at 274.32 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 43.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6c5549c-6d35-4fd2-b251-0a14972bde81")
-		)
-		(instances
-			(project "Rhenium-Hub"
-				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6179,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "56k"
 			(at 264.16 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6229,7 +6327,7 @@
 			(uuid "78e7109d-873f-43f0-8b7f-b5c3d2069f0d")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "R2")
 					(unit 1)
@@ -6239,85 +6337,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "896847aa-bce9-4c2b-b208-d4aa7d11e5ca")
-		(property "Reference" "#PWR014"
-			(at 180.34 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "697faea4-18fd-4f71-88ec-3feed0201247")
-		)
-		(instances
-			(project "Rhenium-Hub"
-				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 237.49 76.2 0)
+		(at 237.49 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6328,7 +6348,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bea4411-557e-46a3-ad28-0bf2f9b168a9")
 		(property "Reference" "#PWR021"
-			(at 237.49 82.55 0)
+			(at 237.49 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6339,7 +6359,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 81.28 0)
+			(at 237.49 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6349,7 +6369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 76.2 0)
+			(at 237.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6360,7 +6380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 76.2 0)
+			(at 237.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6371,7 +6391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 76.2 0)
+			(at 237.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6385,7 +6405,7 @@
 			(uuid "59ce9ca4-d299-4cda-8e8d-623e5f88f6a1")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR021")
 					(unit 1)
@@ -6465,7 +6485,7 @@
 			(uuid "c2c43df4-c766-4515-92d5-d684fcc6e5ed")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "R8")
 					(unit 1)
@@ -6494,7 +6514,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "56k"
 			(at 223.52 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6544,7 +6564,7 @@
 			(uuid "f57137cb-7c4c-4154-8bb1-03784326c4a3")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "R1")
 					(unit 1)
@@ -6554,7 +6574,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 76.2 0)
+		(at 196.85 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6565,7 +6585,7 @@
 		(fields_autoplaced yes)
 		(uuid "93b1b25b-c885-4be4-95c8-48a7d56facaf")
 		(property "Reference" "#PWR019"
-			(at 196.85 82.55 0)
+			(at 196.85 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6576,7 +6596,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 81.28 0)
+			(at 196.85 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6586,7 +6606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 76.2 0)
+			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 76.2 0)
+			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,7 +6628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 76.2 0)
+			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6622,7 +6642,7 @@
 			(uuid "86b6a18d-0edf-4b33-b840-1fa53e9764b0")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR019")
 					(unit 1)
@@ -6704,7 +6724,7 @@
 			(uuid "3fb767df-1264-4543-9bfd-de46cdb4af07")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "C11")
 					(unit 1)
@@ -6783,7 +6803,7 @@
 			(uuid "84a8361e-006c-479e-92c6-15bb3ea665b7")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR04")
 					(unit 1)
@@ -6861,9 +6881,88 @@
 			(uuid "34da10e6-d253-4522-81e2-d33f6bde07e4")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 227.33 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c23f5d4-42cd-4cc3-8744-fdef291d3706")
+		(property "Reference" "#PWR035"
+			(at 223.52 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 231.14 45.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 227.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df64e06a-b327-4833-9272-cbfc087d2cb9")
+		)
+		(instances
+			(project "Erbium"
+				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6891,7 +6990,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "56k"
 			(at 223.52 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6941,7 +7040,7 @@
 			(uuid "3afff769-def1-4f22-a6cb-b4208442c561")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "R3")
 					(unit 1)
@@ -7128,7 +7227,7 @@
 			(uuid "a9ca31d3-a898-4244-81bb-9994205e98e2")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "U1")
 					(unit 1)
@@ -7210,7 +7309,7 @@
 			(uuid "fc320f9d-ed5f-4269-86b1-9cbad7b39670")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "C10")
 					(unit 1)
@@ -7335,7 +7434,7 @@
 			(uuid "7c162bbf-4374-4c8b-84bc-917db4cd276b")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "J4")
 					(unit 1)
@@ -7414,88 +7513,9 @@
 			(uuid "b4d2cf6a-e68b-454e-b141-f0f6448ceaed")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 227.33 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8a4f221-9535-4481-8c94-baa07cbce445")
-		(property "Reference" "#PWR07"
-			(at 233.68 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.14 43.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e7c01d2-9f67-4aa3-a619-6a9691557bee")
-		)
-		(instances
-			(project "Rhenium-Hub"
-				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7575,7 +7595,7 @@
 			(uuid "a12d5df3-f5db-478c-a054-f396faae40e6")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "24Mhz1")
 					(unit 1)
@@ -7654,7 +7674,7 @@
 			(uuid "7ac768ed-f453-4631-856d-148c807d7c36")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR017")
 					(unit 1)
@@ -7733,88 +7753,9 @@
 			(uuid "4fd9c113-b0d1-46a7-835f-d638c80fd12c")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 227.33 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbe2bb95-2465-4e91-8a19-a69a1ff63c1c")
-		(property "Reference" "#PWR09"
-			(at 233.68 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.14 45.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "520d85b1-e2ff-4baa-a50f-d25c7e0619c9")
-		)
-		(instances
-			(project "Rhenium-Hub"
-				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7891,7 +7832,7 @@
 			(uuid "bd0333e0-9909-49a9-816f-e915de99a37f")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR025")
 					(unit 1)
@@ -7969,7 +7910,7 @@
 			(uuid "f65f203a-23b1-47f3-a17d-1a2083788fc9")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR033")
 					(unit 1)
@@ -8049,7 +7990,7 @@
 			(uuid "ba0c68af-ca04-4fa9-89f8-a532de372894")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "R6")
 					(unit 1)
@@ -8128,7 +8069,7 @@
 			(uuid "aa4d8c4e-5cca-4eb8-90b4-a2cf9bfecfa5")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR02")
 					(unit 1)
@@ -8210,7 +8151,7 @@
 			(uuid "59884db9-ab2f-46b3-b5ff-50d2707933af")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "C8")
 					(unit 1)
@@ -8219,8 +8160,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 267.97 45.72 90)
+		(lib_id "power:+5V")
+		(at 227.33 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8229,9 +8170,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f7c17edd-64e4-425d-bfb6-11d956fa6ca7")
-		(property "Reference" "#PWR010"
-			(at 274.32 45.72 0)
+		(uuid "f0e36603-a647-4e2d-9619-c175872aadee")
+		(property "Reference" "#PWR034"
+			(at 223.52 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8241,19 +8182,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 271.78 45.7199 90)
+		(property "Value" "+5V"
+			(at 231.14 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 45.72 0)
+			(at 227.33 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8264,7 +8205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 45.72 0)
+			(at 227.33 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8274,8 +8215,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 45.72 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 227.33 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8286,12 +8227,102 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a1e8460-20ba-4d95-83da-f35af71a1893")
+			(uuid "f436352a-6a8c-49a3-9866-b687db60beaa")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
-					(reference "#PWR010")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "USB_A_1")
+		(lib_id "Connector:USB_A")
+		(at 161.29 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2ca779c-76e3-4a92-be16-9a7bac52801e")
+		(property "Reference" "J6"
+			(at 161.29 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_A"
+			(at 161.29 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Type A connector"
+			(at 161.29 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SH"
+			(uuid "c5b87847-4041-4370-9066-aa72b1d97923")
+		)
+		(pin "4"
+			(uuid "70ec2a04-dfca-4233-826e-df986c527a2d")
+		)
+		(pin "3"
+			(uuid "aa02ff32-7e54-473d-95ed-2c877a6bd898")
+		)
+		(pin "1"
+			(uuid "889a6e1d-fbb6-45b6-9ea4-43a94ee22354")
+		)
+		(pin "2"
+			(uuid "12f6c4e8-bce4-4e39-b403-2550fddd556d")
+		)
+		(instances
+			(project "Erbium"
+				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8367,7 +8398,7 @@
 			(uuid "2215a8f1-4c96-4d0b-99ce-176122175e96")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR016")
 					(unit 1)
@@ -8446,7 +8477,7 @@
 			(uuid "37fc4e76-8513-4f92-bc0a-43c5d1d59ca7")
 		)
 		(instances
-			(project "Rhenium-Hub"
+			(project "Erbium"
 				(path "/3120a259-f84d-4fdb-8c03-bda992bb8be2"
 					(reference "#PWR018")
 					(unit 1)

@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Rhenium-Hub.kicad_pro",
+    "filename": "Erbium.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -640,18 +640,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Rhenium-Hub.kicad_sch",
-        "name": "Rhenium-Hub",
+        "filename": "Erbium.kicad_sch",
+        "name": "Erbium",
         "uuid": "3120a259-f84d-4fdb-8c03-bda992bb8be2"
       }
     ],
-    "used_designators": "H1-2,#PWR1-14,#PWR19-22,#PWR33,R1-4,J1-4,C1-6,C9-12",
+    "used_designators": "J6,#PWR7",
     "variants": []
   },
   "sheets": [
     [
       "3120a259-f84d-4fdb-8c03-bda992bb8be2",
-      "Rhenium-Hub"
+      "Erbium"
     ]
   ],
   "text_variables": {},
