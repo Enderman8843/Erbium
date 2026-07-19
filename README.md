@@ -7,6 +7,9 @@ It is Hi-Speed USB HUB with USB2514B_B Chip and 24mhz crystal , With Support of 
 JUST PlUG IT INTO YOUR COMPUTER VIA THE INPUT
 
 
+## Why did I built it 
+I built this project because I wanted learn more about usb hubs and their working , WHile this hub also helps me to work with my RPI 2 zero , which dosent have many usb ports and hence allowing me to connect multiple peripeheral devices to it 
+
 # PCB Layout
 
 | PCB Layout | Schematic / Wiring |
